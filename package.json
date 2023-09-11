@@ -4,7 +4,7 @@
   "version": "2.6.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "dev": "vite serve --mode development",
+    "dev": "vite serve --mode development --port 8080",
     "build:prod": "vite build --mode production && vue-tsc --noEmit",
     "prepare": "husky install",
     "lint:eslint": "eslint  --fix --ext .ts,.js,.vue ./src ",
